@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Sami Bajwa 😉</title>
+    <title>Sami Bajwa</title>
 </head>
 <body>
-    <article class = "container1"><img src="images/linkedin selfie edited.jpg" alt="pic of me" width = "300" height = "auto"></article>
-        <article class = "container2">
-            <h1>👋🏼 Hi I'm Sami 👋🏼</h1>
-            <p><h2>I constantly like to challenge my brain so I enjoy</h2>
-                playing chess ♟️
-                <br>
-                reading 📕
-                <br>
-                and of course coding ⌨️
-            </p>
-            <p><h5>Currently: Third year Computer Science major at CSUF 🏫, Officer at ACM CSUF 💻, and looking for opportunities 🧐</h5></p>
+    <header>
+        <ul class = "nav_bar">
+            <li> <a href="#intro">About</a> </li>
+            <li> <a href="#projects">Projects</a> </li>
+            <!-- <li> <a href="#experience">Experience</a> </li> -->
+            <!-- the #s ^ are for "id"s not "class"s -->
+        </ul>
+    </header>
+    <section class = "intro">
+        <h1>Helloooo, I'm Sami Bajwa, thanks for checking out my website!</h1>
+        <!-- (pronounced with a strong j like jaguar 🐈) -->
+        <br>
+        <h2 id = "intro">About me</h2>
+        <p>I'm a third year computer science major always looking to learn more through
+            information and experience! I'm interested in web development, artificial intelligence
+            and algorithms and how my interests can help people throughout the world 🌎.
             <br>
-            <h2>Websites of interest 🤔</h2>
-                <a href="https://github.com/samixtures?tab=repositories">
-                <img src="images/GitHub-logo.png" alt="GitHub" style="width: 120px;height: 120px; margin-right: 100px;">
-                </a>
-               <a href="https://www.linkedin.com/in/bajwas/">
-                <img src="images/Transparent Linkedin.png" alt="Linkedin" style="width: 110px;height: 110px;">
-                </a>
-        </article>
+            <br>
+            Some of my hobbies include reading 📚, watching videos to help me learn useful information 💻,
+            spending time with my family and friends 👨‍👩‍👧‍👦, playing basketball 🏀, and cooooding ⌨
+        </p>
+    </section>
+    <section class = "projects" id = "projects">
+        <h2>Projects</h2>
+        <div class = "project_element">
+            <h4>Task Manager</h4>
+            <img class = "proj3" src="images/taskManager.gif" alt="Task Manager">
+            <p>
+                Used javascript, html, and css to create this task manager to help me (you guessed it)
+                manage tasks on my computer better. All of the tasks are editable, there is a remove button,
+                there is a button to cross out tasks, and there is a light and dark mode (all shown in the gif above)!
+            </p>
+        </div>
+        <div class = "project_element">
+            <h4>Pokemon Space Invaders</h4>
+            <img class = "proj1" src="images/pokemon_spaceinvaders.png" alt="Pokemon Space Invaders">
+            <p>
+                While learning python I decided to create a game known to be simple in python 
+                but with a change that would make it more enjoyable for my playing experience.
+                I practiced basic things in python like using loops, if statements, and using the pygame library.
+            </p>
+        </div>
+        <div class = "project_element">
+            <h4>Cat Randomizer App</h4>
+            <img class = "proj2" src="images/catApp.gif" alt="Cat Randomizer App">
+            <p>
+                Since everyone loves cats and I wanted to create an app I developed
+                this cat randomizer app which does exactly what it sounds like (and what it shows in the gif above).
+                I developed it using the react native javascript framework, so this app works on both ios and android devices :).
+            </p>
+        </div>
+        <div class = "project_element">
+            <h4>Temperature and Time Tracker</h4>
+            <img class = "proj4" src="images/tempAndTime.png" alt="Temp and time pic">
+            <p>
+                Both of my older siblings moved out last year and I wanted me and my family to always
+                know what the time, temperature, and sky status were of their locations at all times.
+                I used two REST APIs to get all of the information present so everyone in the family can know
+                about each other's locations at any given moment.
+            </p>
+        </div>
+    </section>
+    <!-- <section class = "experience">
+        <h2 id = "experience">Experience</h2>
+        <div class = "experience_element">
+            ACM
+        </div> -->
+
+    </section>
+        <!-- <img src="images/linkedin selfie edited.jpg" alt="pic of me" height = 600px> -->
 </body>
 </html>
