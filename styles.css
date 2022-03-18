@@ -29,8 +29,7 @@ html {
 
 .intro {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
 }
 
 .intro p {
@@ -40,8 +39,7 @@ html {
 
 .projects {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
 }
 
 .project_element {
@@ -50,6 +48,8 @@ html {
   text-align: center;
   width: 550px;
   height: auto;
+  margin: auto;
+  width: 50%;
   margin: 0;
   padding: 0;
 }

@@ -27,8 +27,7 @@ html {
 
 .intro {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
   p {
     font-size: 60%;
     text-align: left;
@@ -36,8 +35,7 @@ html {
 }
 .projects {
   font-size: 300%;
-  padding-left: 500px;
-  padding-right: 500px;
+  text-align: center;
 }
 .project_element {
   border-radius: 20px;
@@ -45,6 +43,8 @@ html {
   text-align: center;
   width: 550px;
   height: auto;
+  margin: auto;
+  width: 50%;
   img {
     width: auto;
     height: 400px;
