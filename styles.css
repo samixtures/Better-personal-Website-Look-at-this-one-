@@ -40,6 +40,9 @@ html {
 .projects {
   font-size: 300%;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .project_element {
@@ -47,11 +50,12 @@ html {
   background-color: #0a7a2f;
   text-align: center;
   width: 550px;
-  height: auto;
+  max-width: 700px;
   margin: auto;
   width: 50%;
   margin: 0;
   padding: 0;
+  margin: auto;
 }
 
 .project_element img {
