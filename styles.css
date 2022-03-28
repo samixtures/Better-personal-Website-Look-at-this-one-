@@ -37,6 +37,11 @@ html {
   text-align: left;
 }
 
+.intro .meImage {
+  float: left;
+  padding: 0px 50px 0px 50px;
+}
+
 .projects {
   font-size: 300%;
   text-align: center;
