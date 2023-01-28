@@ -1,1 +1,1 @@
-https://samixtures.github.io/Practice-Personal-Website/
+https://samixtures.github.io/Better-personal-Website/
