@@ -29,6 +29,10 @@ h1 {
   font-size: 5em;
   text-align: center;
 }
+h2 {
+  font-size: 5em;
+  text-align: center;
+}
 #intro {
   margin-top: 0;
 }
@@ -47,100 +51,4 @@ h1 {
 
 .buffer {
   height: 100px;
-}
-
-.proj-h2 {
-  font-size: 72px;
-  text-align: center;
-
-}
-.proj-container {
-  // font-size: 3em;
-  // text-align: center;
-  // align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  // background-color: rgb(238, 213, 167);
-}
-.project_element {
-  border-radius: 20px;
-  background-color: rgb(244, 244, 244);
-  text-align: center;
-  width: 35rem;
-  img {
-    max-width: 450px;
-    max-height: 300px;
-  }
-  h4 {
-    font-size: 3em;
-  }
-  p {
-    font-size: 1.5rem;
-  }
-  margin: 30px;
-  // width: 550px;
-  // max-width: 700px;
-  // margin: auto;
-  // width: 50%;
-  // img {
-  //   width: auto;
-  //   height: 400px;
-  // }
-  // p {
-  //   text-align: left;
-  //   font-size: 50%;
-  //   padding-left: 30px;
-  // }
-  // margin: 0;
-  // padding: 0;
-
-  // .proj2 {
-  //   height: 500px;
-  //   width: auto;
-  // }
-  // .proj3 {
-  //   height: 400px;
-  //   width: auto;
-  // }
-  // .proj4 {
-  //   height: auto;
-  //   width: 550px;
-  // }
-  // margin: auto; //Literally only centered my div after I put it all the way at the bottom. Broooooooooooo
-}
-.experience {
-  font-size: 3em;
-  padding-left: 500px;
-  padding-right: 500px;
-}
-
-
-//CLOUD CODE. DON'T KNOW WHAT IT DOES
-.cloud{ 
-   margin-top:70px;
-   width:350px;
-   height:120px;
-   background:#ECEFF1;
-   box-shadow: 10px 10px rgba(0,0,0,0.2);
-   border-radius:100px;
-}
-.cloud::after, .cloud::before{
-    content:"";
-    position:relative;
-    display:inline-block;
-    background:inherit;
-    border-radius:inherit;
-}
-.cloud::after{
-    width:100px;
-    height:100px;
-    top:-220px;
-    left:50px;
-}
-.cloud::before{
-    width:180px;
-    height:180px;
-    top: -70px;
-    left:130px;
 }
