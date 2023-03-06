@@ -53,3 +53,23 @@ body {
   margin: auto;
   width: 100%;
 }/*# sourceMappingURL=styles.css.map */
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project a {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+main{
+  /* text-align: center; */
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
