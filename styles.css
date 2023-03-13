@@ -1,8 +1,29 @@
 body {
-  background-color: #fff5d7;
+  background-color: rgb(247, 247, 255);
+  /* background-color: black;
+  color: white; */
   font-family: "Roboto", sans-serif;
   font-weight: 1000;
 }
+
+.left-image {
+  float: left;
+  margin-right: 10px; /* adjust as needed */
+}
+
+.right-image {
+  float: right;
+  margin-left: 10px; /* adjust as needed */
+}
+
+
+/* Add a clearfix to the parent element to prevent content from wrapping around the images */
+.parent-element::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .navBar {
   list-style-type: none;
@@ -45,8 +66,19 @@ body {
 }
 
 .name {
+  background-image: url("IslamicBackgroundImage-removebg-preview.png"); /* Replace "your-image-url.jpg" with the URL or relative file path to your image */
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 5;
+  padding: 50px;
+  
+}
+
+.headerName {
   font-size: 5em;
   text-align: center;
+  font-weight: bolder;
 }
 
 .container {
